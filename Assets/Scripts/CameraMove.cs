@@ -6,6 +6,11 @@ public class CameraMove : MonoBehaviour
     public Vector3 offset;
 
     // Update is called once per frame
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        offset = transform.position - player.transform.position;
+    }
     void Update()
     {
         if (player == null) {
