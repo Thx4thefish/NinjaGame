@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7e3a1bac9704046921de317e4b4e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelFileName: Level-1-1-1.png
+  levelFileName: Level-1-1-1.png.png
   colorToPrefab:
   - color:
       serializedVersion: 2
@@ -187,11 +187,11 @@ MonoBehaviour:
   - color:
       serializedVersion: 2
       rgba: 16777215
-    prefab: {fileID: 0}
+    prefab: {fileID: 4263873360308200515, guid: dbc9776ae9f6741909af33fb8794bbce, type: 3}
   - color:
       serializedVersion: 2
       rgba: 4294967040
-    prefab: {fileID: 0}
+    prefab: {fileID: 7542975255844042017, guid: 81e60725c7a9a41349994b04e25dc04b, type: 3}
 --- !u!1 &1297760739
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
+  m_CameraType: 1
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -273,7 +273,7 @@ Camera:
   m_GameObject: {fileID: 1297760739}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
