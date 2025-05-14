@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 707379615031237419}
   - component: {fileID: 5309980550075916147}
   - component: {fileID: 4801452955082614842}
+  - component: {fileID: -3602736805455825924}
   m_Layer: 0
   m_Name: Player Ninja
   m_TagString: Player
@@ -236,6 +237,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-3602736805455825924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7412018627545214215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc768fe9c9fb43418bdb18376460820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  invincibilityDuration: 1
+  healthText: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7443034950715613742
 GameObject:
   m_ObjectHideFlags: 0

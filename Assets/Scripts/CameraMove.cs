@@ -17,6 +17,6 @@ public class CameraMove : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player");
         }
 
-        transform.position = player.transform.position - offset;
+        transform.position = player.transform.position + offset;
     }
 }

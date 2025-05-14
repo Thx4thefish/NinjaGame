@@ -4,6 +4,7 @@ public class Launcher : MonoBehaviour
 {
     [SerializeField] private float launchForce = 15f; // Adjustable launch force in the inspector
     [SerializeField] private bool resetVelocity = true; // Whether to reset velocity before launching
+    [SerializeField] private int pointsToAdd = 100; // Points to add when launched
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,6 +25,9 @@ public class Launcher : MonoBehaviour
                     
                     // Apply upward force
                     rb.AddForce(Vector2.up * launchForce, ForceMode2D.Impulse);
+                    
+                    // Add points if it's the player
+                    
                     
                     // Optional: Add a debug log
                     Debug.Log($"Launched {collision.gameObject.name} with force {launchForce}");
